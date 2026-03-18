@@ -45,7 +45,7 @@ sudo pacman -S python python-pyqt6
 
 # Önerilen
 sudo pacman -S expac flatpak fuse2
-yay -S yay  # veya paru
+sudo pacman -S yay | veya sudo pacman -S paru
 ```
 
 ### Hızlı Kurulum
@@ -53,7 +53,8 @@ yay -S yay  # veya paru
 ```bash
 git clone https://github.com/fatih-bucaklioglu/arxis
 cd arxis
-bash install.sh
+chmod +x run.sh install.sh run.fish
+./install.sh
 ```
 
 `install.sh` şunları otomatik yapar:
